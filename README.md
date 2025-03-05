@@ -1,6 +1,6 @@
 ### TODO
 - [x] Read the image from the webcam
-- [ ] Show the image
+- [x] Show the image
 - [ ] Send to server UDP to show the image
 
 ### References Link
