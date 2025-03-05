@@ -4,7 +4,14 @@ version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+
+[dependencies.image]
+version = "0.25"
 
 [dependencies.nokhwa]
-version = "0.10.7"
+version = "0.10"
 features = ["input-native", "input-avfoundation" , "output-threaded"]
+git = "https://github.com/l1npengtul/nokhwa.git"
+# for fix NV12 in macos it was fix in 45c6a3aef352e0d871dad9b48ff2e537838a0e4f
+rev = "45c6a3aef352e0d871dad9b48ff2e537838a0e4f"
